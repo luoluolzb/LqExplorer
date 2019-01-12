@@ -9,7 +9,7 @@ ini_set('display_errors', true);
 define('NEED_PASS', false);
 
 //访问密码
-define('PASSWORD', 'luoluolzb');  
+define('PASSWORD', 'password');  
 
 //根目录
 define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'] . '/');
