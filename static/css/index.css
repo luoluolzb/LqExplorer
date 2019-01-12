@@ -1,0 +1,84 @@
+
+body{
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+
+table a{
+	cursor: pointer;
+}
+
+.toolbar{
+    position: fixed;
+    z-index: 10;
+}
+
+.toolbar-top{
+    top: 0;
+}
+
+#dirShowBar .input-group-addon:first-child,
+#dirShowBar .form-control,
+.toolbar-bottom .btn
+{
+    border-radius: 0;   
+}
+
+.toolbar-bottom{
+    bottom: 1px;
+}
+
+.toolbar>.MenuBar{
+    border-radius: 0;
+}
+
+.file-info{
+    cursor: pointer;
+}
+
+#filemenu-list>li{
+    cursor: pointer;
+}
+
+#filemenu-list>li:hover{
+    background: #f4f4f4;
+}
+
+.checkbox{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+    border: 1px solid grey;
+    background: #fff;
+	margin: 0;
+}
+
+.dropdown-top>li>a{
+	cursor: pointer;
+}
+
+.upload-file[type="file"]{
+	display: none;
+}
+
+.upload-select,
+.upload-submit{
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.upload-select:hover,
+.upload-submit:hover{
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
